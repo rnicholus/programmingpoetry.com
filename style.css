@@ -1,0 +1,65 @@
+body {
+    font: 16px 'AmericanTypewriter', Courier, 'CourierNew';
+    margin: -3px;
+}
+
+.title {
+    text-align: center;
+}
+
+.notebook {
+    background: linear-gradient(top, #DFE8F8 0%, white 7%) 0 50px;
+    background: -webkit-linear-gradient(top, #DFE8F8 0%, white 7%) 0 50px;
+    background-size: 100% 30px;
+    padding: 30px 62px 30px;
+    position: relative;
+}
+.notebook::after {
+    border-left: 1px solid #F8D3D9;
+    bottom: 0;
+    content: '';
+    left: 50px;
+    position: absolute;
+    top: 0;
+}
+
+.poem-section {
+    margin-bottom: 70px;
+    position: relative;
+}
+
+.poem {
+    font-size: 20px;
+    margin-bottom: 40px;
+    margin-top: 12px;
+}
+
+
+.poem-title {
+    margin-bottom: 7px;
+}
+
+.poem-link {
+    color: inherit;
+    text-decoration: none;
+}
+.poem-link:hover .link-icon,
+.poem-link:focus .link-icon {
+    display: block;
+}
+
+.link-icon {
+    display: none;
+    left: -40px;
+    position: absolute;
+    top: 7px;
+}
+
+.poem-description {
+    margin: 0;
+}
+
+footer {
+    margin-top: 100px;
+    text-align: center;
+}
