@@ -11,7 +11,7 @@ body {
     background: linear-gradient(top, #DFE8F8 0%, white 7%) 0 50px;
     background: -webkit-linear-gradient(top, #DFE8F8 0%, white 7%) 0 50px;
     background-size: 100% 30px;
-    padding: 30px 62px 30px;
+    padding: 30px 15px 30px;
     position: relative;
 }
 .notebook::after {
@@ -30,8 +30,11 @@ body {
 
 .poem {
     font-size: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 25px;
     margin-top: 12px;
+    overflow: auto;
+    padding-bottom: 15px;
+    white-space: nowrap;
 }
 
 
