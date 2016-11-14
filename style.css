@@ -11,7 +11,7 @@ body {
     background: linear-gradient(top, #DFE8F8 0%, white 7%) 0 50px;
     background: -webkit-linear-gradient(top, #DFE8F8 0%, white 7%) 0 50px;
     background-size: 100% 30px;
-    padding: 30px 15px 30px;
+    padding: 30px 15px 30px 62px;
     position: relative;
 }
 .notebook::after {
