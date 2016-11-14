@@ -3,8 +3,12 @@ body {
     margin: -3px;
 }
 
-.title {
-    text-align: center;
+.logo {
+    display: block;
+    margin: 0 auto;
+    max-width: 500px;
+    min-width: 300px;
+    width: 60%;
 }
 
 .notebook {
@@ -28,16 +32,6 @@ body {
     position: relative;
 }
 
-.poem {
-    font-size: 20px;
-    margin-bottom: 25px;
-    margin-top: 12px;
-    overflow: auto;
-    padding-bottom: 15px;
-    white-space: nowrap;
-}
-
-
 .poem-title {
     margin-bottom: 7px;
 }
@@ -55,11 +49,25 @@ body {
     display: none;
     left: -40px;
     position: absolute;
-    top: 7px;
+    top: 5px;
 }
 
 .poem-description {
     margin: 0;
+}
+
+.poem {
+    font-size: 20px;
+    margin-bottom: 25px;
+    margin-top: 12px;
+}
+
+.stanza {
+    margin-left: 1.2em;
+}
+
+.verse {
+    margin-left: -1.2em;
 }
 
 footer {
